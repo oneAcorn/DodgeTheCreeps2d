@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://kbljpj812b7"]
+
+[node name="Mob" type="RigidBody2D" unique_id=1690354984]
+gravity_scale = 0.0
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=614446465]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1385685640]
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=278395264]
